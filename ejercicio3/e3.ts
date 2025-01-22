@@ -23,3 +23,10 @@ class Triangle extends Figura {
   }
 }
 
+
+const rectangulo = new Rectangle(10,10)
+console.log(rectangulo.area())
+
+
+const triangulo = new Triangle(10,10)
+console.log(triangulo.area())

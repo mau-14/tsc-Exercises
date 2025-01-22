@@ -15,3 +15,7 @@ class Triangle extends Figura {
         return (this.base * this.altura) / 2;
     }
 }
+const rectangulo = new Rectangle(10, 10);
+console.log(rectangulo.area());
+const triangulo = new Triangle(10, 10);
+console.log(triangulo.area());
